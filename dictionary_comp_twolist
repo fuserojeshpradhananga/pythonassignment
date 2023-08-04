@@ -1,0 +1,9 @@
+list1 = ["name","age","address","occupation"]
+
+list2 = ["rojesh pradhananga",23,"New Road", "Trainee"]
+
+dict_1 = {list1[i] : list2[i] for i in range(len(list1))}
+
+print(dict_1)
+
+

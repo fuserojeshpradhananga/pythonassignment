@@ -1,0 +1,5 @@
+original_list = ["apple", "banana", "cherry", "date", "grapes", "kiwi"]
+
+new_list = [string for string in original_list if len(string) > 5]
+
+print(new_list)

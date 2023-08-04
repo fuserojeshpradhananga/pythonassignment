@@ -1,0 +1,14 @@
+
+scores = {
+"Rojesh" : 81,
+"Ram" : 71,
+"Ravi" : 90,
+"Jenish": 50
+}
+
+
+high_score = {name:score for name,score in scores.items() if score > 80}
+
+print(high_score)
+
+

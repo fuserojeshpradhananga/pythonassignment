@@ -1,0 +1,9 @@
+string1 = "rojesh"
+
+string2 = "pradhananga"
+
+
+common = {char for char in string1 if char in string2}
+
+print(common)
+
